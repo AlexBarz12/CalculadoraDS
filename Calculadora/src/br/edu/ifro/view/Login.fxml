@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.controller.LoginController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="331.0" layoutY="319.0" opacity="0.89" stroke="#75676700" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeType="OUTSIDE" width="1004.0">
+         <fill>
+            <LinearGradient endX="0.7238095238095238" endY="0.8095238095238096" startX="0.7238095238095238" startY="0.19047619047619047">
+               <stops>
+                  <Stop color="#1cddeba3" />
+                  <Stop color="#1cddeb64" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="394.0" layoutX="350.0" layoutY="77.0" nodeOrientation="LEFT_TO_RIGHT" stroke="#e4dada" strokeDashOffset="3.0" strokeType="INSIDE" strokeWidth="3.0" width="319.0">
+
+      </Rectangle>
+      <JFXPasswordField fx:id="txtSenha" focusColor="#5272d3" labelFloat="true" layoutX="401.0" layoutY="332.0" prefHeight="25.0" prefWidth="216.0" promptText="Senha" unFocusColor="#4bacfb" />
+      <JFXDialogLayout layoutX="-136.0" layoutY="205.0" />
+      <JFXTextField fx:id="txtUsuario" layoutX="400.0" layoutY="296.0" prefHeight="25.0" prefWidth="216.0" promptText="Usuario" unFocusColor="#4bacfb" />
+      <ComboBox layoutX="399.0" layoutY="371.0" opacity="0.45" prefHeight="31.0" prefWidth="216.0" style="-fx-background-color: #DCDCDC;" visibleRowCount="1" />
+      <ImageView fitHeight="133.0" fitWidth="126.0" layoutX="447.0" layoutY="103.0" opacity="0.2">
+         <image>
+            <Image url="@../img/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="152.0" fitWidth="162.0" layoutX="59.0" layoutY="27.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Documents/NetBeansProjects/Calculadora/src/br/edu/ifro/img/calc.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnEntrar" layoutX="481.0" layoutY="430.0" mnemonicParsing="false" onAction="#AbrirMenuInicial" text="Entrar" />
+   </children>
+</AnchorPane>
